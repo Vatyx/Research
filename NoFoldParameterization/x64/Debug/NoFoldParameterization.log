@@ -1,0 +1,44 @@
+﻿Build started 9/7/2016 2:06:11 PM.
+     1>Project "C:\Users\Sahil\Documents\NoFold\NoFoldParameterization\NoFoldParameterization.vcxproj" on node 2 (Build target(s)).
+       Project file contains ToolsVersion="12.0". This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion="4.0". For more information, please see http://go.microsoft.com/fwlink/?LinkId=291333.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /IC:\Users\schaefer.AUTH\Desktop\NoFold /Zi /nologo /W3 /WX- /Od /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /openmp- /Fo"x64\Debug\\" /Fd"x64\Debug\vc110.pdb" /Gd /TP /errorReport:prompt JasonFull.cpp
+         JasonFull.cpp
+     1>JasonFull.cpp(160): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(218) : see declaration of 'fopen'
+     1>JasonFull.cpp(173): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(218) : see declaration of 'fopen'
+     1>JasonFull.cpp(174): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(218) : see declaration of 'fopen'
+     1>JasonFull.cpp(205): warning C4101: 'gx2' : unreferenced local variable
+     1>JasonFull.cpp(205): warning C4101: 'gx1' : unreferenced local variable
+     1>JasonFull.cpp(205): warning C4101: 'gy0' : unreferenced local variable
+     1>JasonFull.cpp(205): warning C4101: 'gx0' : unreferenced local variable
+     1>JasonFull.cpp(205): warning C4101: 'gy2' : unreferenced local variable
+     1>JasonFull.cpp(205): warning C4101: 'gy1' : unreferenced local variable
+     1>JasonFull.cpp(406): warning C4101: 'A' : unreferenced local variable
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Sahil\Documents\NoFold\x64\Debug\NoFoldParameterization.exe" /INCREMENTAL /NOLOGO glut64.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Sahil\Documents\NoFold\x64\Debug\NoFoldParameterization.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Sahil\Documents\NoFold\x64\Debug\NoFoldParameterization.lib" /MACHINE:X64 x64\Debug\BarrierMethod.obj
+         x64\Debug\eval_functions.obj
+         x64\Debug\eval_hessian.obj
+         x64\Debug\global.obj
+         x64\Debug\HalfEdgeMesh.obj
+         x64\Debug\iso_pre.obj
+         x64\Debug\JasonFull.obj
+         x64\Debug\lbfgs.obj
+         x64\Debug\load_obj_tris.obj
+         x64\Debug\main.obj
+         x64\Debug\mesh_charts.obj
+         x64\Debug\mmap_file.obj
+         x64\Debug\multires.obj
+         x64\Debug\ParamMethod.obj
+         x64\Debug\QEF.obj
+         x64\Debug\timer.obj
+         x64\Debug\tuttes_halfmesh.obj
+         x64\Debug\vect.obj
+         NoFoldParameterization.vcxproj -> C:\Users\Sahil\Documents\NoFold\x64\Debug\NoFoldParameterization.exe
+     1>Done Building Project "C:\Users\Sahil\Documents\NoFold\NoFoldParameterization\NoFoldParameterization.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.66

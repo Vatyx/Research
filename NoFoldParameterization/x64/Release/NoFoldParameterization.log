@@ -1,0 +1,534 @@
+﻿Build started 12/9/2016 3:15:26 PM.
+     1>Project "C:\Users\Sahil\Documents\NoFold2 Eigen 3.3\NoFoldParameterization\NoFoldParameterization.vcxproj" on node 2 (Build target(s)).
+       Project file contains ToolsVersion="12.0". This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion="4.0". For more information, please see http://go.microsoft.com/fwlink/?LinkId=291333.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\x86_amd64\CL.exe /c /IC:\Users\Sahil\Documents\NoFold /Iglut64 /nologo /W3 /WX- /sdl- /MP /O2 /Ob2 /Oi /Oy /GT /D _MBCS /GF- /Gm- /MD /GS- /Gy /Qpar /arch:AVX /fp:fast /Zc:wchar_t /Zc:forScope /GR- /openmp /Fo"x64\Release\\" /Fd"x64\Release\vc110.pdb" /Gd /TP /errorReport:prompt BarrierMethod.cpp eval_functions.cpp eval_hessian.cpp global.cpp HalfEdgeMesh.cpp iso_pre.cpp JasonFull.cpp lbfgs.cpp load_obj_tris.cpp main.cpp mesh_charts.cpp mmap_file.cpp multires.cpp ParamMethod.cpp QEF.cpp timer.cpp tuttes_halfmesh.cpp vect.cpp
+     1>cl : Command line warning D9025: overriding '/sdl-' with '/GS-'
+     1>cl : Command line warning D9025: overriding '/sdl-' with '/GS-'
+         BarrierMethod.cpp
+     1>cl : Command line warning D9025: overriding '/sdl-' with '/GS-'
+         eval_functions.cpp
+     1>cl : Command line warning D9025: overriding '/sdl-' with '/GS-'
+         eval_hessian.cpp
+     1>cl : Command line warning D9025: overriding '/sdl-' with '/GS-'
+         global.cpp
+     1>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\xlocale(336): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc (BarrierMethod.cpp)
+     1>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\xlocale(336): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc (eval_functions.cpp)
+     1>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\xlocale(336): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc (global.cpp)
+     1>BarrierMethod.cpp(458): warning C4267: '+=' : conversion from 'size_t' to 'int', possible loss of data
+     1>BarrierMethod.cpp(709): warning C4267: '-=' : conversion from 'size_t' to 'int', possible loss of data
+     1>BarrierMethod.cpp(482): warning C4101: 'temp' : unreferenced local variable
+     1>BarrierMethod.cpp(1077): warning C4267: '+=' : conversion from 'size_t' to 'int', possible loss of data
+     1>BarrierMethod.cpp(1274): warning C4267: '-=' : conversion from 'size_t' to 'int', possible loss of data
+     1>BarrierMethod.cpp(1734): warning C4267: '-=' : conversion from 'size_t' to 'int', possible loss of data
+         HalfEdgeMesh.cpp
+     1>global.cpp(41): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>global.cpp(149): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>global.cpp(998): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>global.cpp(1004): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>global.cpp(1153): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(218) : see declaration of 'fopen'
+     1>global.cpp(1179): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(218) : see declaration of 'fopen'
+     1>c:\users\sahil\documents\nofold2 eigen 3.3\nofoldparameterization\SparseMatrix.h(763): warning C4101: 'alpha' : unreferenced local variable (global.cpp)
+                 c:\users\sahil\documents\nofold2 eigen 3.3\nofoldparameterization\SparseMatrix.h(738) : while compiling class template member function 'void MathMatrix::SparseMatrix<type>::conjugateGradients(type *,type *,int,type)'
+                 with
+                 [
+                     type=double
+                 ]
+                 global.cpp(419) : see reference to function template instantiation 'void MathMatrix::SparseMatrix<type>::conjugateGradients(type *,type *,int,type)' being compiled
+                 with
+                 [
+                     type=double
+                 ]
+                 global.cpp(154) : see reference to class template instantiation 'MathMatrix::SparseMatrix<type>' being compiled
+                 with
+                 [
+                     type=double
+                 ]
+     1>c:\users\sahil\documents\nofold2 eigen 3.3\nofoldparameterization\SparseMatrix.h(871): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (global.cpp)
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(218) : see declaration of 'fopen'
+                 c:\users\sahil\documents\nofold2 eigen 3.3\nofoldparameterization\SparseMatrix.h(870) : while compiling class template member function 'void MathMatrix::SparseMatrix<type>::outputMathematica(char *)'
+                 with
+                 [
+                     type=double
+                 ]
+     1>c:\users\sahil\documents\nofold2 eigen 3.3\nofoldparameterization\Matrix.h(911): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (global.cpp)
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(218) : see declaration of 'fopen'
+                 c:\users\sahil\documents\nofold2 eigen 3.3\nofoldparameterization\Matrix.h(910) : while compiling class template member function 'void MathMatrix::Matrix<type>::outputMathematica(char *)'
+                 with
+                 [
+                     type=double
+                 ]
+                 c:\users\sahil\documents\nofold2 eigen 3.3\nofoldparameterization\SparseMatrix.h(239) : see reference to class template instantiation 'MathMatrix::Matrix<type>' being compiled
+                 with
+                 [
+                     type=double
+                 ]
+                 c:\users\sahil\documents\nofold2 eigen 3.3\nofoldparameterization\SparseMatrix.h(231) : while compiling class template member function 'int MathMatrix::SparseMatrix<type>::operator =(MathMatrix::Matrix<type> &)'
+                 with
+                 [
+                     type=double
+                 ]
+     1>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\xlocale(336): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc (HalfEdgeMesh.cpp)
+         iso_pre.cpp
+     1>HalfEdgeMesh.cpp(564): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>HalfEdgeMesh.cpp(567): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>HalfEdgeMesh.cpp(1087): warning C4101: 'norm' : unreferenced local variable
+     1>HalfEdgeMesh.cpp(1190): warning C4101: 'norm' : unreferenced local variable
+     1>HalfEdgeMesh.cpp(1189): warning C4101: 'i' : unreferenced local variable
+     1>HalfEdgeMesh.cpp(1191): warning C4101: 'eq' : unreferenced local variable
+     1>HalfEdgeMesh.cpp(1251): warning C4101: 'j' : unreferenced local variable
+     1>HalfEdgeMesh.cpp(1378): warning C4018: '<' : signed/unsigned mismatch
+     1>HalfEdgeMesh.cpp(1433): warning C4018: '<' : signed/unsigned mismatch
+     1>HalfEdgeMesh.cpp(1479): warning C4018: '<' : signed/unsigned mismatch
+     1>HalfEdgeMesh.cpp(1514): warning C4018: '<' : signed/unsigned mismatch
+         JasonFull.cpp
+     1>HalfEdgeMesh.cpp(2516): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>HalfEdgeMesh.cpp(2532): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>HalfEdgeMesh.cpp(3064): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(218) : see declaration of 'fopen'
+     1>HalfEdgeMesh.cpp(3101): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(218) : see declaration of 'fopen'
+     1>HalfEdgeMesh.cpp(3532): warning C4101: 'i' : unreferenced local variable
+     1>HalfEdgeMesh.cpp(3643): warning C4101: 'i' : unreferenced local variable
+     1>HalfEdgeMesh.cpp(4440): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>c:\users\sahil\documents\nofold2 eigen 3.3\nofoldparameterization\SparseMatrix.h(763): warning C4101: 'alpha' : unreferenced local variable (HalfEdgeMesh.cpp)
+                 c:\users\sahil\documents\nofold2 eigen 3.3\nofoldparameterization\SparseMatrix.h(738) : while compiling class template member function 'void MathMatrix::SparseMatrix<type>::conjugateGradients(type *,type *,int,type)'
+                 with
+                 [
+                     type=double
+                 ]
+                 HalfEdgeMesh.cpp(4868) : see reference to function template instantiation 'void MathMatrix::SparseMatrix<type>::conjugateGradients(type *,type *,int,type)' being compiled
+                 with
+                 [
+                     type=double
+                 ]
+                 HalfEdgeMesh.cpp(4448) : see reference to class template instantiation 'MathMatrix::SparseMatrix<type>' being compiled
+                 with
+                 [
+                     type=double
+                 ]
+     1>c:\users\sahil\documents\nofold2 eigen 3.3\nofoldparameterization\SparseMatrix.h(871): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (HalfEdgeMesh.cpp)
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(218) : see declaration of 'fopen'
+                 c:\users\sahil\documents\nofold2 eigen 3.3\nofoldparameterization\SparseMatrix.h(870) : while compiling class template member function 'void MathMatrix::SparseMatrix<type>::outputMathematica(char *)'
+                 with
+                 [
+                     type=double
+                 ]
+     1>c:\users\sahil\documents\nofold2 eigen 3.3\nofoldparameterization\Matrix.h(911): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details. (HalfEdgeMesh.cpp)
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(218) : see declaration of 'fopen'
+                 c:\users\sahil\documents\nofold2 eigen 3.3\nofoldparameterization\Matrix.h(910) : while compiling class template member function 'void MathMatrix::Matrix<type>::outputMathematica(char *)'
+                 with
+                 [
+                     type=double
+                 ]
+                 c:\users\sahil\documents\nofold2 eigen 3.3\nofoldparameterization\SparseMatrix.h(239) : see reference to class template instantiation 'MathMatrix::Matrix<type>' being compiled
+                 with
+                 [
+                     type=double
+                 ]
+                 c:\users\sahil\documents\nofold2 eigen 3.3\nofoldparameterization\SparseMatrix.h(231) : while compiling class template member function 'int MathMatrix::SparseMatrix<type>::operator =(MathMatrix::Matrix<type> &)'
+                 with
+                 [
+                     type=double
+                 ]
+     1>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\xlocale(336): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc (JasonFull.cpp)
+     1>c:\users\sahil\documents\nofold2 eigen 3.3\nofoldparameterization\vect.h(172): warning C4244: '=' : conversion from 'const double' to 'float', possible loss of data (HalfEdgeMesh.cpp)
+                 HalfEdgeMesh.cpp(1269) : see reference to function template instantiation 'void vect<N,T>::operator =<3,double>(const vect<3,double> &)' being compiled
+                 with
+                 [
+                     N=3,
+                     T=float
+                 ]
+                 HalfEdgeMesh.cpp(1269) : see reference to function template instantiation 'void vect<N,T>::operator =<3,double>(const vect<3,double> &)' being compiled
+                 with
+                 [
+                     N=3,
+                     T=float
+                 ]
+         lbfgs.cpp
+     1>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\xlocale(336): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc (lbfgs.cpp)
+     1>c:\users\sahil\documents\nofold2 eigen 3.3\nofoldparameterization\halfedgemesh.cpp(4346): warning C4700: uninitialized local variable 'rvalue' used
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\unsupported\eigen\src/SparseExtra/DynamicSparseMatrix.h(75): error C2065: 'StorageIndex' : undeclared identifier (JasonFull.cpp)
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\unsupported\eigen\src/SparseExtra/DynamicSparseMatrix.h(323) : see reference to class template instantiation 'Eigen::DynamicSparseMatrix<_Scalar,_Options,_StorageIndex>' being compiled
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\unsupported\eigen\src/SparseExtra/DynamicSparseMatrix.h(75): error C2923: 'Eigen::DynamicSparseMatrix' : 'StorageIndex' is not a valid template type argument for parameter '_StorageIndex' (JasonFull.cpp)
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\unsupported\eigen\src/SparseExtra/DynamicSparseMatrix.h(78): error C2065: 'StorageIndex' : undeclared identifier (JasonFull.cpp)
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\unsupported\eigen\src/SparseExtra/DynamicSparseMatrix.h(78): error C2923: 'Eigen::internal::CompressedStorage' : 'StorageIndex' is not a valid template type argument for parameter '_Index' (JasonFull.cpp)
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\unsupported\eigen\src/SparseExtra/DynamicSparseMatrix.h(78): error C3203: 'CompressedStorage' : unspecialized class template can't be used as a template argument for template parameter '_Ty', expected a real type (JasonFull.cpp)
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\unsupported\eigen\src/SparseExtra/DynamicSparseMatrix.h(78): error C2955: 'Eigen::internal::CompressedStorage' : use of class template requires template argument list (JasonFull.cpp)
+                 c:\users\sahil\documents\nofold\eigen\src/SparseCore/CompressedStorage.h(23) : see declaration of 'Eigen::internal::CompressedStorage'
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\unsupported\eigen\src/SparseExtra/DynamicSparseMatrix.h(88): error C2065: 'StorageIndex' : undeclared identifier (JasonFull.cpp)
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\unsupported\eigen\src/SparseExtra/DynamicSparseMatrix.h(88): error C2923: 'Eigen::internal::CompressedStorage' : 'StorageIndex' is not a valid template type argument for parameter '_Index' (JasonFull.cpp)
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\unsupported\eigen\src/SparseExtra/DynamicSparseMatrix.h(88): error C3203: 'CompressedStorage' : unspecialized class template can't be used as a template argument for template parameter '_Ty', expected a real type (JasonFull.cpp)
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\unsupported\eigen\src/SparseExtra/DynamicSparseMatrix.h(88): error C2955: 'Eigen::internal::CompressedStorage' : use of class template requires template argument list (JasonFull.cpp)
+                 c:\users\sahil\documents\nofold\eigen\src/SparseCore/CompressedStorage.h(23) : see declaration of 'Eigen::internal::CompressedStorage'
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\unsupported\eigen\src/SparseExtra/DynamicSparseMatrix.h(89): error C2065: 'StorageIndex' : undeclared identifier (JasonFull.cpp)
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\unsupported\eigen\src/SparseExtra/DynamicSparseMatrix.h(89): error C2923: 'Eigen::internal::CompressedStorage' : 'StorageIndex' is not a valid template type argument for parameter '_Index' (JasonFull.cpp)
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\unsupported\eigen\src/SparseExtra/DynamicSparseMatrix.h(89): error C3203: 'CompressedStorage' : unspecialized class template can't be used as a template argument for template parameter '_Ty', expected a real type (JasonFull.cpp)
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\unsupported\eigen\src/SparseExtra/DynamicSparseMatrix.h(89): error C2955: 'Eigen::internal::CompressedStorage' : use of class template requires template argument list (JasonFull.cpp)
+                 c:\users\sahil\documents\nofold\eigen\src/SparseCore/CompressedStorage.h(23) : see declaration of 'Eigen::internal::CompressedStorage'
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\unsupported\eigen\src/SparseExtra/DynamicSparseMatrix.h(362): error C2143: syntax error : missing ';' before '<' (JasonFull.cpp)
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\unsupported\eigen\src/SparseExtra/DynamicSparseMatrix.h(362): error C2059: syntax error : '<' (JasonFull.cpp)
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\unsupported\eigen\src/SparseExtra/DynamicSparseMatrix.h(362): error C2065: '_Scalar' : undeclared identifier (JasonFull.cpp)
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\unsupported\eigen\src/SparseExtra/DynamicSparseMatrix.h(362): error C2065: '_Options' : undeclared identifier (JasonFull.cpp)
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\unsupported\eigen\src/SparseExtra/DynamicSparseMatrix.h(362): error C2065: '_StorageIndex' : undeclared identifier (JasonFull.cpp)
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\unsupported\eigen\src/SparseExtra/DynamicSparseMatrix.h(362): error C2923: 'Eigen::DynamicSparseMatrix' : '_Scalar' is not a valid template type argument for parameter '_Scalar' (JasonFull.cpp)
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\unsupported\eigen\src/SparseExtra/DynamicSparseMatrix.h(362): error C2975: '_Options' : invalid template argument for 'Eigen::DynamicSparseMatrix', expected compile-time constant expression (JasonFull.cpp)
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\unsupported\eigen\src/SparseExtra/DynamicSparseMatrix.h(55) : see declaration of '_Options'
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\unsupported\eigen\src/SparseExtra/DynamicSparseMatrix.h(362): error C2923: 'Eigen::DynamicSparseMatrix' : '_StorageIndex' is not a valid template type argument for parameter '_StorageIndex' (JasonFull.cpp)
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\unsupported\eigen\src/SparseExtra/DynamicSparseMatrix.h(363): error C2143: syntax error : missing ';' before '<' (JasonFull.cpp)
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\unsupported\eigen\src/SparseExtra/DynamicSparseMatrix.h(363): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int (JasonFull.cpp)
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\unsupported\eigen\src/SparseExtra/DynamicSparseMatrix.h(363): error C2065: '_Scalar' : undeclared identifier (JasonFull.cpp)
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\unsupported\eigen\src/SparseExtra/DynamicSparseMatrix.h(363): error C2065: '_Options' : undeclared identifier (JasonFull.cpp)
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\unsupported\eigen\src/SparseExtra/DynamicSparseMatrix.h(363): error C2065: '_StorageIndex' : undeclared identifier (JasonFull.cpp)
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\unsupported\eigen\src/SparseExtra/DynamicSparseMatrix.h(363): error C2923: 'Eigen::DynamicSparseMatrix' : '_Scalar' is not a valid template type argument for parameter '_Scalar' (JasonFull.cpp)
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\unsupported\eigen\src/SparseExtra/DynamicSparseMatrix.h(363): error C2975: '_Options' : invalid template argument for 'Eigen::DynamicSparseMatrix', expected compile-time constant expression (JasonFull.cpp)
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\unsupported\eigen\src/SparseExtra/DynamicSparseMatrix.h(55) : see declaration of '_Options'
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\unsupported\eigen\src/SparseExtra/DynamicSparseMatrix.h(363): error C2923: 'Eigen::DynamicSparseMatrix' : '_StorageIndex' is not a valid template type argument for parameter '_StorageIndex' (JasonFull.cpp)
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\unsupported\eigen\src/SparseExtra/DynamicSparseMatrix.h(364): error C2143: syntax error : missing ';' before '{' (JasonFull.cpp)
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\unsupported\eigen\src/SparseExtra/DynamicSparseMatrix.h(364): error C2447: '{' : missing function header (old-style formal list?) (JasonFull.cpp)
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\unsupported\eigen\src/SparseExtra/RandomSetter.h(293): error C2061: syntax error : identifier 'Index' (JasonFull.cpp)
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\unsupported\eigen\src/SparseExtra/RandomSetter.h(323) : see reference to class template instantiation 'Eigen::RandomSetter<SparseMatrixType,MapTraits,OuterPacketBits>' being compiled
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\unsupported\eigen\src/SparseExtra/RandomSetter.h(308): error C2146: syntax error : missing ';' before identifier 'nonZeros' (JasonFull.cpp)
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\unsupported\eigen\src/SparseExtra/RandomSetter.h(308): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int (JasonFull.cpp)
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\unsupported\eigen\src/SparseExtra/RandomSetter.h(309): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int (JasonFull.cpp)
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\unsupported\eigen\src/SparseExtra/RandomSetter.h(314): warning C4183: 'nonZeros': missing return type; assumed to be a member function returning 'int' (JasonFull.cpp)
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\unsupported\eigen\src/SparseExtra/RandomSetter.h(321): error C2146: syntax error : missing ';' before identifier 'm_outerPackets' (JasonFull.cpp)
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\unsupported\eigen\src/SparseExtra/RandomSetter.h(321): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int (JasonFull.cpp)
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\unsupported\eigen\src/SparseExtra/MarketIO.h(21): error C2061: syntax error : identifier 'Index' (JasonFull.cpp)
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\unsupported\eigen\src/SparseExtra/MarketIO.h(34): error C2061: syntax error : identifier 'Index' (JasonFull.cpp)
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\unsupported\eigen\src/SparseExtra/MarketIO.h(47): error C2995: 'bool Eigen::internal::GetMarketLine(std::stringstream &)' : function template has already been defined (JasonFull.cpp)
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\unsupported\eigen\src/SparseExtra/MarketIO.h(21) : see declaration of 'Eigen::internal::GetMarketLine'
+         load_obj_tris.cpp
+     1>lbfgs.cpp(733): warning C4101: 'ls' : unreferenced local variable
+     1>lbfgs.cpp(965): warning C4101: 'temp' : unreferenced local variable
+     1>lbfgs.cpp(1261): warning C4101: 'diff_prev' : unreferenced local variable
+     1>lbfgs.cpp(1416): warning C4101: 'xxx' : unreferenced local variable
+     1>lbfgs.cpp(1474): warning C4101: 'temp' : unreferenced local variable
+     1>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\xlocale(336): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc (load_obj_tris.cpp)
+         main.cpp
+         mesh_charts.cpp
+     1>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\xlocale(336): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc (main.cpp)
+     1>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\xlocale(336): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc (mesh_charts.cpp)
+     1>mesh_charts.cpp(109): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>mesh_charts.cpp(110): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>mesh_charts.cpp(111): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>mesh_charts.cpp(161): warning C4244: 'return' : conversion from 'double' to 'float', possible loss of data
+         mmap_file.cpp
+         multires.cpp
+     1>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\xlocale(336): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc (mmap_file.cpp)
+         ParamMethod.cpp
+     1>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\xlocale(336): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc (ParamMethod.cpp)
+     1>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\xlocale(336): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc (multires.cpp)
+         QEF.cpp
+         timer.cpp
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\unsupported\eigen\src/SparseExtra/DynamicSparseMatrix.h(75): error C2065: 'StorageIndex' : undeclared identifier (main.cpp)
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\unsupported\eigen\src/SparseExtra/DynamicSparseMatrix.h(323) : see reference to class template instantiation 'Eigen::DynamicSparseMatrix<_Scalar,_Options,_StorageIndex>' being compiled
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\unsupported\eigen\src/SparseExtra/DynamicSparseMatrix.h(75): error C2923: 'Eigen::DynamicSparseMatrix' : 'StorageIndex' is not a valid template type argument for parameter '_StorageIndex' (main.cpp)
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\unsupported\eigen\src/SparseExtra/DynamicSparseMatrix.h(78): error C2065: 'StorageIndex' : undeclared identifier (main.cpp)
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\unsupported\eigen\src/SparseExtra/DynamicSparseMatrix.h(78): error C2923: 'Eigen::internal::CompressedStorage' : 'StorageIndex' is not a valid template type argument for parameter '_Index' (main.cpp)
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\unsupported\eigen\src/SparseExtra/DynamicSparseMatrix.h(78): error C3203: 'CompressedStorage' : unspecialized class template can't be used as a template argument for template parameter '_Ty', expected a real type (main.cpp)
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\unsupported\eigen\src/SparseExtra/DynamicSparseMatrix.h(78): error C2955: 'Eigen::internal::CompressedStorage' : use of class template requires template argument list (main.cpp)
+                 c:\users\sahil\documents\nofold\eigen\src/SparseCore/CompressedStorage.h(23) : see declaration of 'Eigen::internal::CompressedStorage'
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\unsupported\eigen\src/SparseExtra/DynamicSparseMatrix.h(88): error C2065: 'StorageIndex' : undeclared identifier (main.cpp)
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\unsupported\eigen\src/SparseExtra/DynamicSparseMatrix.h(88): error C2923: 'Eigen::internal::CompressedStorage' : 'StorageIndex' is not a valid template type argument for parameter '_Index' (main.cpp)
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\unsupported\eigen\src/SparseExtra/DynamicSparseMatrix.h(88): error C3203: 'CompressedStorage' : unspecialized class template can't be used as a template argument for template parameter '_Ty', expected a real type (main.cpp)
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\unsupported\eigen\src/SparseExtra/DynamicSparseMatrix.h(88): error C2955: 'Eigen::internal::CompressedStorage' : use of class template requires template argument list (main.cpp)
+                 c:\users\sahil\documents\nofold\eigen\src/SparseCore/CompressedStorage.h(23) : see declaration of 'Eigen::internal::CompressedStorage'
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\unsupported\eigen\src/SparseExtra/DynamicSparseMatrix.h(89): error C2065: 'StorageIndex' : undeclared identifier (main.cpp)
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\unsupported\eigen\src/SparseExtra/DynamicSparseMatrix.h(89): error C2923: 'Eigen::internal::CompressedStorage' : 'StorageIndex' is not a valid template type argument for parameter '_Index' (main.cpp)
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\unsupported\eigen\src/SparseExtra/DynamicSparseMatrix.h(89): error C3203: 'CompressedStorage' : unspecialized class template can't be used as a template argument for template parameter '_Ty', expected a real type (main.cpp)
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\unsupported\eigen\src/SparseExtra/DynamicSparseMatrix.h(89): error C2955: 'Eigen::internal::CompressedStorage' : use of class template requires template argument list (main.cpp)
+                 c:\users\sahil\documents\nofold\eigen\src/SparseCore/CompressedStorage.h(23) : see declaration of 'Eigen::internal::CompressedStorage'
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\unsupported\eigen\src/SparseExtra/DynamicSparseMatrix.h(362): error C2143: syntax error : missing ';' before '<' (main.cpp)
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\unsupported\eigen\src/SparseExtra/DynamicSparseMatrix.h(362): error C2059: syntax error : '<' (main.cpp)
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\unsupported\eigen\src/SparseExtra/DynamicSparseMatrix.h(362): error C2065: '_Scalar' : undeclared identifier (main.cpp)
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\unsupported\eigen\src/SparseExtra/DynamicSparseMatrix.h(362): error C2065: '_Options' : undeclared identifier (main.cpp)
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\unsupported\eigen\src/SparseExtra/DynamicSparseMatrix.h(362): error C2065: '_StorageIndex' : undeclared identifier (main.cpp)
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\unsupported\eigen\src/SparseExtra/DynamicSparseMatrix.h(362): error C2923: 'Eigen::DynamicSparseMatrix' : '_Scalar' is not a valid template type argument for parameter '_Scalar' (main.cpp)
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\unsupported\eigen\src/SparseExtra/DynamicSparseMatrix.h(362): error C2975: '_Options' : invalid template argument for 'Eigen::DynamicSparseMatrix', expected compile-time constant expression (main.cpp)
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\unsupported\eigen\src/SparseExtra/DynamicSparseMatrix.h(55) : see declaration of '_Options'
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\unsupported\eigen\src/SparseExtra/DynamicSparseMatrix.h(362): error C2923: 'Eigen::DynamicSparseMatrix' : '_StorageIndex' is not a valid template type argument for parameter '_StorageIndex' (main.cpp)
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\unsupported\eigen\src/SparseExtra/DynamicSparseMatrix.h(363): error C2143: syntax error : missing ';' before '<' (main.cpp)
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\unsupported\eigen\src/SparseExtra/DynamicSparseMatrix.h(363): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int (main.cpp)
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\unsupported\eigen\src/SparseExtra/DynamicSparseMatrix.h(363): error C2065: '_Scalar' : undeclared identifier (main.cpp)
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\unsupported\eigen\src/SparseExtra/DynamicSparseMatrix.h(363): error C2065: '_Options' : undeclared identifier (main.cpp)
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\unsupported\eigen\src/SparseExtra/DynamicSparseMatrix.h(363): error C2065: '_StorageIndex' : undeclared identifier (main.cpp)
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\unsupported\eigen\src/SparseExtra/DynamicSparseMatrix.h(363): error C2923: 'Eigen::DynamicSparseMatrix' : '_Scalar' is not a valid template type argument for parameter '_Scalar' (main.cpp)
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\unsupported\eigen\src/SparseExtra/DynamicSparseMatrix.h(363): error C2975: '_Options' : invalid template argument for 'Eigen::DynamicSparseMatrix', expected compile-time constant expression (main.cpp)
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\unsupported\eigen\src/SparseExtra/DynamicSparseMatrix.h(55) : see declaration of '_Options'
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\unsupported\eigen\src/SparseExtra/DynamicSparseMatrix.h(363): error C2923: 'Eigen::DynamicSparseMatrix' : '_StorageIndex' is not a valid template type argument for parameter '_StorageIndex' (main.cpp)
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\unsupported\eigen\src/SparseExtra/DynamicSparseMatrix.h(364): error C2143: syntax error : missing ';' before '{' (main.cpp)
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\unsupported\eigen\src/SparseExtra/DynamicSparseMatrix.h(364): error C2447: '{' : missing function header (old-style formal list?) (main.cpp)
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\unsupported\eigen\src/SparseExtra/RandomSetter.h(293): error C2061: syntax error : identifier 'Index' (main.cpp)
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\unsupported\eigen\src/SparseExtra/RandomSetter.h(323) : see reference to class template instantiation 'Eigen::RandomSetter<SparseMatrixType,MapTraits,OuterPacketBits>' being compiled
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\unsupported\eigen\src/SparseExtra/RandomSetter.h(308): error C2146: syntax error : missing ';' before identifier 'nonZeros' (main.cpp)
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\unsupported\eigen\src/SparseExtra/RandomSetter.h(308): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int (main.cpp)
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\unsupported\eigen\src/SparseExtra/RandomSetter.h(309): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int (main.cpp)
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\unsupported\eigen\src/SparseExtra/RandomSetter.h(314): warning C4183: 'nonZeros': missing return type; assumed to be a member function returning 'int' (main.cpp)
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\unsupported\eigen\src/SparseExtra/RandomSetter.h(321): error C2146: syntax error : missing ';' before identifier 'm_outerPackets' (main.cpp)
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\unsupported\eigen\src/SparseExtra/RandomSetter.h(321): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int (main.cpp)
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\unsupported\eigen\src/SparseExtra/MarketIO.h(21): error C2061: syntax error : identifier 'Index' (main.cpp)
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\unsupported\eigen\src/SparseExtra/MarketIO.h(34): error C2061: syntax error : identifier 'Index' (main.cpp)
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\unsupported\eigen\src/SparseExtra/MarketIO.h(47): error C2995: 'bool Eigen::internal::GetMarketLine(std::stringstream &)' : function template has already been defined (main.cpp)
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\unsupported\eigen\src/SparseExtra/MarketIO.h(21) : see declaration of 'Eigen::internal::GetMarketLine'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\vector(722): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc (QEF.cpp)
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\vector(711) : while compiling class template member function 'std::vector<_Ty>::vector(const std::vector<_Ty> &)'
+                 with
+                 [
+                     _Ty=vect3d
+                 ]
+                 C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\xmemory0(565) : see reference to function template instantiation 'std::vector<_Ty>::vector(const std::vector<_Ty> &)' being compiled
+                 with
+                 [
+                     _Ty=vect3d
+                 ]
+                 c:\users\sahil\documents\nofold2 eigen 3.3\nofoldparameterization\QEF.h(21) : see reference to class template instantiation 'std::vector<_Ty>' being compiled
+                 with
+                 [
+                     _Ty=vect3d
+                 ]
+                 c:\users\sahil\documents\nofold2 eigen 3.3\nofoldparameterization\QEF.h(83) : see reference to class template instantiation 'QEF<Type,n>' being compiled
+     1>main.cpp(25): warning C4018: '<' : signed/unsigned mismatch
+     1>main.cpp(719): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>main.cpp(724): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>main.cpp(737): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>main.cpp(742): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>main.cpp(1329): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>main.cpp(1498): warning C4267: 'initializing' : conversion from 'size_t' to 'int', possible loss of data
+     1>main.cpp(1515): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>main.cpp(1718): warning C4267: 'argument' : conversion from 'size_t' to 'int', possible loss of data
+     1>main.cpp(1995): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>main.cpp(2059): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>main.cpp(2806): warning C4267: '=' : conversion from 'size_t' to 'int', possible loss of data
+     1>main.cpp(3418): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+         tuttes_halfmesh.cpp
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\unsupported\eigen\src/SparseExtra/DynamicSparseMatrix.h(75): error C2065: 'StorageIndex' : undeclared identifier (multires.cpp)
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\unsupported\eigen\src/SparseExtra/DynamicSparseMatrix.h(323) : see reference to class template instantiation 'Eigen::DynamicSparseMatrix<_Scalar,_Options,_StorageIndex>' being compiled
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\unsupported\eigen\src/SparseExtra/DynamicSparseMatrix.h(75): error C2923: 'Eigen::DynamicSparseMatrix' : 'StorageIndex' is not a valid template type argument for parameter '_StorageIndex' (multires.cpp)
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\unsupported\eigen\src/SparseExtra/DynamicSparseMatrix.h(78): error C2065: 'StorageIndex' : undeclared identifier (multires.cpp)
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\unsupported\eigen\src/SparseExtra/DynamicSparseMatrix.h(78): error C2923: 'Eigen::internal::CompressedStorage' : 'StorageIndex' is not a valid template type argument for parameter '_Index' (multires.cpp)
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\unsupported\eigen\src/SparseExtra/DynamicSparseMatrix.h(78): error C3203: 'CompressedStorage' : unspecialized class template can't be used as a template argument for template parameter '_Ty', expected a real type (multires.cpp)
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\unsupported\eigen\src/SparseExtra/DynamicSparseMatrix.h(78): error C2955: 'Eigen::internal::CompressedStorage' : use of class template requires template argument list (multires.cpp)
+                 c:\users\sahil\documents\nofold\eigen\src/SparseCore/CompressedStorage.h(23) : see declaration of 'Eigen::internal::CompressedStorage'
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\unsupported\eigen\src/SparseExtra/DynamicSparseMatrix.h(88): error C2065: 'StorageIndex' : undeclared identifier (multires.cpp)
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\unsupported\eigen\src/SparseExtra/DynamicSparseMatrix.h(88): error C2923: 'Eigen::internal::CompressedStorage' : 'StorageIndex' is not a valid template type argument for parameter '_Index' (multires.cpp)
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\unsupported\eigen\src/SparseExtra/DynamicSparseMatrix.h(88): error C3203: 'CompressedStorage' : unspecialized class template can't be used as a template argument for template parameter '_Ty', expected a real type (multires.cpp)
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\unsupported\eigen\src/SparseExtra/DynamicSparseMatrix.h(88): error C2955: 'Eigen::internal::CompressedStorage' : use of class template requires template argument list (multires.cpp)
+                 c:\users\sahil\documents\nofold\eigen\src/SparseCore/CompressedStorage.h(23) : see declaration of 'Eigen::internal::CompressedStorage'
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\unsupported\eigen\src/SparseExtra/DynamicSparseMatrix.h(89): error C2065: 'StorageIndex' : undeclared identifier (multires.cpp)
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\unsupported\eigen\src/SparseExtra/DynamicSparseMatrix.h(89): error C2923: 'Eigen::internal::CompressedStorage' : 'StorageIndex' is not a valid template type argument for parameter '_Index' (multires.cpp)
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\unsupported\eigen\src/SparseExtra/DynamicSparseMatrix.h(89): error C3203: 'CompressedStorage' : unspecialized class template can't be used as a template argument for template parameter '_Ty', expected a real type (multires.cpp)
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\unsupported\eigen\src/SparseExtra/DynamicSparseMatrix.h(89): error C2955: 'Eigen::internal::CompressedStorage' : use of class template requires template argument list (multires.cpp)
+                 c:\users\sahil\documents\nofold\eigen\src/SparseCore/CompressedStorage.h(23) : see declaration of 'Eigen::internal::CompressedStorage'
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\unsupported\eigen\src/SparseExtra/DynamicSparseMatrix.h(362): error C2143: syntax error : missing ';' before '<' (multires.cpp)
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\unsupported\eigen\src/SparseExtra/DynamicSparseMatrix.h(362): error C2059: syntax error : '<' (multires.cpp)
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\unsupported\eigen\src/SparseExtra/DynamicSparseMatrix.h(362): error C2065: '_Scalar' : undeclared identifier (multires.cpp)
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\unsupported\eigen\src/SparseExtra/DynamicSparseMatrix.h(362): error C2065: '_Options' : undeclared identifier (multires.cpp)
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\unsupported\eigen\src/SparseExtra/DynamicSparseMatrix.h(362): error C2065: '_StorageIndex' : undeclared identifier (multires.cpp)
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\unsupported\eigen\src/SparseExtra/DynamicSparseMatrix.h(362): error C2923: 'Eigen::DynamicSparseMatrix' : '_Scalar' is not a valid template type argument for parameter '_Scalar' (multires.cpp)
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\unsupported\eigen\src/SparseExtra/DynamicSparseMatrix.h(362): error C2975: '_Options' : invalid template argument for 'Eigen::DynamicSparseMatrix', expected compile-time constant expression (multires.cpp)
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\unsupported\eigen\src/SparseExtra/DynamicSparseMatrix.h(55) : see declaration of '_Options'
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\unsupported\eigen\src/SparseExtra/DynamicSparseMatrix.h(362): error C2923: 'Eigen::DynamicSparseMatrix' : '_StorageIndex' is not a valid template type argument for parameter '_StorageIndex' (multires.cpp)
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\unsupported\eigen\src/SparseExtra/DynamicSparseMatrix.h(363): error C2143: syntax error : missing ';' before '<' (multires.cpp)
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\unsupported\eigen\src/SparseExtra/DynamicSparseMatrix.h(363): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int (multires.cpp)
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\unsupported\eigen\src/SparseExtra/DynamicSparseMatrix.h(363): error C2065: '_Scalar' : undeclared identifier (multires.cpp)
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\unsupported\eigen\src/SparseExtra/DynamicSparseMatrix.h(363): error C2065: '_Options' : undeclared identifier (multires.cpp)
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\unsupported\eigen\src/SparseExtra/DynamicSparseMatrix.h(363): error C2065: '_StorageIndex' : undeclared identifier (multires.cpp)
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\unsupported\eigen\src/SparseExtra/DynamicSparseMatrix.h(363): error C2923: 'Eigen::DynamicSparseMatrix' : '_Scalar' is not a valid template type argument for parameter '_Scalar' (multires.cpp)
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\unsupported\eigen\src/SparseExtra/DynamicSparseMatrix.h(363): error C2975: '_Options' : invalid template argument for 'Eigen::DynamicSparseMatrix', expected compile-time constant expression (multires.cpp)
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\unsupported\eigen\src/SparseExtra/DynamicSparseMatrix.h(55) : see declaration of '_Options'
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\unsupported\eigen\src/SparseExtra/DynamicSparseMatrix.h(363): error C2923: 'Eigen::DynamicSparseMatrix' : '_StorageIndex' is not a valid template type argument for parameter '_StorageIndex' (multires.cpp)
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\unsupported\eigen\src/SparseExtra/DynamicSparseMatrix.h(364): error C2143: syntax error : missing ';' before '{' (multires.cpp)
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\unsupported\eigen\src/SparseExtra/DynamicSparseMatrix.h(364): error C2447: '{' : missing function header (old-style formal list?) (multires.cpp)
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\unsupported\eigen\src/SparseExtra/RandomSetter.h(293): error C2061: syntax error : identifier 'Index' (multires.cpp)
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\unsupported\eigen\src/SparseExtra/RandomSetter.h(323) : see reference to class template instantiation 'Eigen::RandomSetter<SparseMatrixType,MapTraits,OuterPacketBits>' being compiled
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\unsupported\eigen\src/SparseExtra/RandomSetter.h(308): error C2146: syntax error : missing ';' before identifier 'nonZeros' (multires.cpp)
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\unsupported\eigen\src/SparseExtra/RandomSetter.h(308): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int (multires.cpp)
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\unsupported\eigen\src/SparseExtra/RandomSetter.h(309): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int (multires.cpp)
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\unsupported\eigen\src/SparseExtra/RandomSetter.h(314): warning C4183: 'nonZeros': missing return type; assumed to be a member function returning 'int' (multires.cpp)
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\unsupported\eigen\src/SparseExtra/RandomSetter.h(321): error C2146: syntax error : missing ';' before identifier 'm_outerPackets' (multires.cpp)
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\unsupported\eigen\src/SparseExtra/RandomSetter.h(321): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int (multires.cpp)
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\unsupported\eigen\src/SparseExtra/MarketIO.h(21): error C2061: syntax error : identifier 'Index' (multires.cpp)
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\unsupported\eigen\src/SparseExtra/MarketIO.h(34): error C2061: syntax error : identifier 'Index' (multires.cpp)
+     1>c:\program files (x86)\microsoft visual studio 11.0\vc\include\unsupported\eigen\src/SparseExtra/MarketIO.h(47): error C2995: 'bool Eigen::internal::GetMarketLine(std::stringstream &)' : function template has already been defined (multires.cpp)
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\unsupported\eigen\src/SparseExtra/MarketIO.h(21) : see declaration of 'Eigen::internal::GetMarketLine'
+     1>C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\xlocale(336): warning C4530: C++ exception handler used, but unwind semantics are not enabled. Specify /EHsc (tuttes_halfmesh.cpp)
+         vect.cpp
+     1>tuttes_halfmesh.cpp(131): warning C4244: '=' : conversion from 'unsigned __int64' to 'double', possible loss of data
+     1>c:\users\sahil\documents\nofold\eigen\src/SparseLU/SparseLU.h(733): warning C4244: 'initializing' : conversion from '__int64' to 'int', possible loss of data (tuttes_halfmesh.cpp)
+                 c:\users\sahil\documents\nofold\eigen\src/SparseLU/SparseLU.h(239) : see reference to function template instantiation 'void Eigen::SparseLUMatrixUReturnType<MatrixLType,MatrixUType>::solveInPlace<Derived>(Eigen::MatrixBase<Derived> &) const' being compiled
+                 with
+                 [
+                     MatrixLType=Eigen::internal::MappedSuperNodalMatrix<double,int>,
+                     MatrixUType=Eigen::MappedSparseMatrix<double,0,int>,
+                     Derived=Eigen::Matrix<double,-1,1>
+                 ]
+                 c:\users\sahil\documents\nofold\eigen\src/SparseLU/SparseLU.h(239) : see reference to function template instantiation 'void Eigen::SparseLUMatrixUReturnType<MatrixLType,MatrixUType>::solveInPlace<Derived>(Eigen::MatrixBase<Derived> &) const' being compiled
+                 with
+                 [
+                     MatrixLType=Eigen::internal::MappedSuperNodalMatrix<double,int>,
+                     MatrixUType=Eigen::MappedSparseMatrix<double,0,int>,
+                     Derived=Eigen::Matrix<double,-1,1>
+                 ]
+                 c:\users\sahil\documents\nofold\eigen\src/SparseLU/SparseLU.h(786) : see reference to function template instantiation 'bool Eigen::SparseLU<_MatrixType,_OrderingType>::_solve<Derived,Derived>(const Eigen::MatrixBase<Derived> &,Eigen::MatrixBase<Derived> &) const' being compiled
+                 with
+                 [
+                     _MatrixType=Eigen::SparseMatrix<double>,
+                     _OrderingType=Eigen::COLAMDOrdering<int>,
+                     Derived=Eigen::Matrix<double,-1,1>
+                 ]
+                 c:\users\sahil\documents\nofold\eigen\src/SparseLU/SparseLU.h(786) : see reference to function template instantiation 'bool Eigen::SparseLU<_MatrixType,_OrderingType>::_solve<Derived,Derived>(const Eigen::MatrixBase<Derived> &,Eigen::MatrixBase<Derived> &) const' being compiled
+                 with
+                 [
+                     _MatrixType=Eigen::SparseMatrix<double>,
+                     _OrderingType=Eigen::COLAMDOrdering<int>,
+                     Derived=Eigen::Matrix<double,-1,1>
+                 ]
+                 c:\users\sahil\documents\nofold\eigen\src/misc/Solve.h(51) : see reference to function template instantiation 'void Eigen::internal::solve_retval<DecompositionType,Rhs>::evalTo<Dest>(Dest &) const' being compiled
+                 with
+                 [
+                     DecompositionType=Eigen::SparseLU<Eigen::SparseMatrix<double>,Eigen::COLAMDOrdering<int>>,
+                     Rhs=Eigen::Matrix<double,-1,1>,
+                     Dest=Eigen::Matrix<double,-1,1>
+                 ]
+                 c:\users\sahil\documents\nofold\eigen\src/misc/Solve.h(51) : see reference to function template instantiation 'void Eigen::internal::solve_retval<DecompositionType,Rhs>::evalTo<Dest>(Dest &) const' being compiled
+                 with
+                 [
+                     DecompositionType=Eigen::SparseLU<Eigen::SparseMatrix<double>,Eigen::COLAMDOrdering<int>>,
+                     Rhs=Eigen::Matrix<double,-1,1>,
+                     Dest=Eigen::Matrix<double,-1,1>
+                 ]
+                 c:\users\sahil\documents\nofold\eigen\src/Core/ReturnByValue.h(60) : see reference to function template instantiation 'void Eigen::internal::solve_retval_base<_DecompositionType,Rhs>::evalTo<Dest>(Dest &) const' being compiled
+                 with
+                 [
+                     _DecompositionType=Eigen::SparseLU<Eigen::SparseMatrix<double>,Eigen::COLAMDOrdering<int>>,
+                     Rhs=Eigen::Matrix<double,-1,1>,
+                     Dest=Eigen::Matrix<double,-1,1>
+                 ]
+                 c:\users\sahil\documents\nofold\eigen\src/Core/ReturnByValue.h(60) : see reference to function template instantiation 'void Eigen::internal::solve_retval_base<_DecompositionType,Rhs>::evalTo<Dest>(Dest &) const' being compiled
+                 with
+                 [
+                     _DecompositionType=Eigen::SparseLU<Eigen::SparseMatrix<double>,Eigen::COLAMDOrdering<int>>,
+                     Rhs=Eigen::Matrix<double,-1,1>,
+                     Dest=Eigen::Matrix<double,-1,1>
+                 ]
+                 c:\users\sahil\documents\nofold\eigen\src/Core/Assign.h(529) : see reference to function template instantiation 'void Eigen::ReturnByValue<Derived>::evalTo<ActualDerived>(Dest &) const' being compiled
+                 with
+                 [
+                     Derived=Eigen::internal::solve_retval_base<Eigen::SparseLU<Eigen::SparseMatrix<double>,Eigen::COLAMDOrdering<int>>,Eigen::Matrix<double,-1,1>>,
+                     ActualDerived=Eigen::Matrix<double,-1,1>,
+                     Dest=Eigen::Matrix<double,-1,1>
+                 ]
+                 c:\users\sahil\documents\nofold\eigen\src/Core/Assign.h(529) : see reference to function template instantiation 'void Eigen::ReturnByValue<Derived>::evalTo<ActualDerived>(Dest &) const' being compiled
+                 with
+                 [
+                     Derived=Eigen::internal::solve_retval_base<Eigen::SparseLU<Eigen::SparseMatrix<double>,Eigen::COLAMDOrdering<int>>,Eigen::Matrix<double,-1,1>>,
+                     ActualDerived=Eigen::Matrix<double,-1,1>,
+                     Dest=Eigen::Matrix<double,-1,1>
+                 ]
+                 c:\users\sahil\documents\nofold\eigen\src/Core/Assign.h(585) : see reference to function template instantiation 'Derived &Eigen::internal::assign_selector<Derived,OtherDerived,EvalBeforeAssigning>::evalTo<Derived,Eigen::ReturnByValue<Eigen::internal::solve_retval_base<_DecompositionType,Rhs>>>(ActualDerived &,const ActualOtherDerived &)' being compiled
+                 with
+                 [
+                     Derived=Eigen::Matrix<double,-1,1>,
+                     OtherDerived=Eigen::internal::solve_retval_base<Eigen::SparseLU<Eigen::SparseMatrix<double>,Eigen::COLAMDOrdering<int>>,Eigen::Matrix<double,-1,1>>,
+                     EvalBeforeAssigning=false,
+                     _DecompositionType=Eigen::SparseLU<Eigen::SparseMatrix<double>,Eigen::COLAMDOrdering<int>>,
+                     Rhs=Eigen::Matrix<double,-1,1>,
+                     ActualDerived=Eigen::Matrix<double,-1,1>,
+                     ActualOtherDerived=Eigen::ReturnByValue<Eigen::internal::solve_retval_base<Eigen::SparseLU<Eigen::SparseMatrix<double>,Eigen::COLAMDOrdering<int>>,Eigen::Matrix<double,-1,1>>>
+                 ]
+                 c:\users\sahil\documents\nofold\eigen\src/Core/Assign.h(585) : see reference to function template instantiation 'Derived &Eigen::internal::assign_selector<Derived,OtherDerived,EvalBeforeAssigning>::evalTo<Derived,Eigen::ReturnByValue<Eigen::internal::solve_retval_base<_DecompositionType,Rhs>>>(ActualDerived &,const ActualOtherDerived &)' being compiled
+                 with
+                 [
+                     Derived=Eigen::Matrix<double,-1,1>,
+                     OtherDerived=Eigen::internal::solve_retval_base<Eigen::SparseLU<Eigen::SparseMatrix<double>,Eigen::COLAMDOrdering<int>>,Eigen::Matrix<double,-1,1>>,
+                     EvalBeforeAssigning=false,
+                     _DecompositionType=Eigen::SparseLU<Eigen::SparseMatrix<double>,Eigen::COLAMDOrdering<int>>,
+                     Rhs=Eigen::Matrix<double,-1,1>,
+                     ActualDerived=Eigen::Matrix<double,-1,1>,
+                     ActualOtherDerived=Eigen::ReturnByValue<Eigen::internal::solve_retval_base<Eigen::SparseLU<Eigen::SparseMatrix<double>,Eigen::COLAMDOrdering<int>>,Eigen::Matrix<double,-1,1>>>
+                 ]
+                 c:\users\sahil\documents\nofold\eigen\src/Core/PlainObjectBase.h(421) : see reference to function template instantiation 'Derived &Eigen::MatrixBase<Derived>::operator =<Eigen::internal::solve_retval_base<_DecompositionType,Rhs>>(const Eigen::ReturnByValue<Eigen::internal::solve_retval_base<_DecompositionType,Rhs>> &)' being compiled
+                 with
+                 [
+                     Derived=Eigen::Matrix<double,-1,1>,
+                     _DecompositionType=Eigen::SparseLU<Eigen::SparseMatrix<double>,Eigen::COLAMDOrdering<int>>,
+                     Rhs=Eigen::Matrix<double,-1,1>
+                 ]
+                 c:\users\sahil\documents\nofold\eigen\src/Core/PlainObjectBase.h(421) : see reference to function template instantiation 'Derived &Eigen::MatrixBase<Derived>::operator =<Eigen::internal::solve_retval_base<_DecompositionType,Rhs>>(const Eigen::ReturnByValue<Eigen::internal::solve_retval_base<_DecompositionType,Rhs>> &)' being compiled
+                 with
+                 [
+                     Derived=Eigen::Matrix<double,-1,1>,
+                     _DecompositionType=Eigen::SparseLU<Eigen::SparseMatrix<double>,Eigen::COLAMDOrdering<int>>,
+                     Rhs=Eigen::Matrix<double,-1,1>
+                 ]
+                 c:\users\sahil\documents\nofold\eigen\src/Core/Matrix.h(190) : see reference to function template instantiation 'Derived &Eigen::PlainObjectBase<Derived>::operator =<Eigen::internal::solve_retval_base<_DecompositionType,Rhs>>(const Eigen::ReturnByValue<Eigen::internal::solve_retval_base<_DecompositionType,Rhs>> &)' being compiled
+                 with
+                 [
+                     Derived=Eigen::Matrix<double,-1,1>,
+                     _DecompositionType=Eigen::SparseLU<Eigen::SparseMatrix<double>,Eigen::COLAMDOrdering<int>>,
+                     Rhs=Eigen::Matrix<double,-1,1>
+                 ]
+                 c:\users\sahil\documents\nofold\eigen\src/Core/Matrix.h(190) : see reference to function template instantiation 'Derived &Eigen::PlainObjectBase<Derived>::operator =<Eigen::internal::solve_retval_base<_DecompositionType,Rhs>>(const Eigen::ReturnByValue<Eigen::internal::solve_retval_base<_DecompositionType,Rhs>> &)' being compiled
+                 with
+                 [
+                     Derived=Eigen::Matrix<double,-1,1>,
+                     _DecompositionType=Eigen::SparseLU<Eigen::SparseMatrix<double>,Eigen::COLAMDOrdering<int>>,
+                     Rhs=Eigen::Matrix<double,-1,1>
+                 ]
+                 tuttes_halfmesh.cpp(266) : see reference to function template instantiation 'Eigen::Matrix<_Scalar,_Rows,_Cols> &Eigen::Matrix<_Scalar,_Rows,_Cols>::operator =<Eigen::internal::solve_retval_base<_DecompositionType,Rhs>>(const Eigen::ReturnByValue<Derived> &)' being compiled
+                 with
+                 [
+                     _Scalar=double,
+                     _Rows=-1,
+                     _Cols=1,
+                     _DecompositionType=Eigen::SparseLU<Eigen::SparseMatrix<double>,Eigen::COLAMDOrdering<int>>,
+                     Rhs=Eigen::Matrix<double,-1,1>,
+                     Derived=Eigen::internal::solve_retval_base<Eigen::SparseLU<Eigen::SparseMatrix<double>,Eigen::COLAMDOrdering<int>>,Eigen::Matrix<double,-1,1>>
+                 ]
+                 tuttes_halfmesh.cpp(266) : see reference to function template instantiation 'Eigen::Matrix<_Scalar,_Rows,_Cols> &Eigen::Matrix<_Scalar,_Rows,_Cols>::operator =<Eigen::internal::solve_retval_base<_DecompositionType,Rhs>>(const Eigen::ReturnByValue<Derived> &)' being compiled
+                 with
+                 [
+                     _Scalar=double,
+                     _Rows=-1,
+                     _Cols=1,
+                     _DecompositionType=Eigen::SparseLU<Eigen::SparseMatrix<double>,Eigen::COLAMDOrdering<int>>,
+                     Rhs=Eigen::Matrix<double,-1,1>,
+                     Derived=Eigen::internal::solve_retval_base<Eigen::SparseLU<Eigen::SparseMatrix<double>,Eigen::COLAMDOrdering<int>>,Eigen::Matrix<double,-1,1>>
+                 ]
+     1>c:\users\sahil\documents\nofold\eigen\src/SparseLU/SparseLU.h(734): warning C4244: 'initializing' : conversion from '__int64' to 'int', possible loss of data (tuttes_halfmesh.cpp)
+     1>c:\users\sahil\documents\nofold\eigen\src/SparseLU/SparseLU_SupernodalMatrix.h(236): warning C4244: 'initializing' : conversion from '__int64' to 'int', possible loss of data (tuttes_halfmesh.cpp)
+                 c:\users\sahil\documents\nofold\eigen\src/SparseLU/SparseLU.h(715) : see reference to function template instantiation 'void Eigen::internal::MappedSuperNodalMatrix<_Scalar,_Index>::solveInPlace<Derived>(Eigen::MatrixBase<Derived> &) const' being compiled
+                 with
+                 [
+                     _Scalar=double,
+                     _Index=int,
+                     Derived=Eigen::Matrix<double,-1,1>
+                 ]
+                 c:\users\sahil\documents\nofold\eigen\src/SparseLU/SparseLU.h(715) : see reference to function template instantiation 'void Eigen::internal::MappedSuperNodalMatrix<_Scalar,_Index>::solveInPlace<Derived>(Eigen::MatrixBase<Derived> &) const' being compiled
+                 with
+                 [
+                     _Scalar=double,
+                     _Index=int,
+                     Derived=Eigen::Matrix<double,-1,1>
+                 ]
+                 c:\users\sahil\documents\nofold\eigen\src/SparseLU/SparseLU.h(238) : see reference to function template instantiation 'void Eigen::SparseLUMatrixLReturnType<MappedSupernodalType>::solveInPlace<Derived>(Eigen::MatrixBase<Derived> &) const' being compiled
+                 with
+                 [
+                     MappedSupernodalType=Eigen::internal::MappedSuperNodalMatrix<double,int>,
+                     Derived=Eigen::Matrix<double,-1,1>
+                 ]
+                 c:\users\sahil\documents\nofold\eigen\src/SparseLU/SparseLU.h(238) : see reference to function template instantiation 'void Eigen::SparseLUMatrixLReturnType<MappedSupernodalType>::solveInPlace<Derived>(Eigen::MatrixBase<Derived> &) const' being compiled
+                 with
+                 [
+                     MappedSupernodalType=Eigen::internal::MappedSuperNodalMatrix<double,int>,
+                     Derived=Eigen::Matrix<double,-1,1>
+                 ]
+     1>c:\users\sahil\documents\nofold\eigen\src/SparseLU/SparseLU_SupernodalMatrix.h(237): warning C4244: 'initializing' : conversion from '__int64' to 'int', possible loss of data (tuttes_halfmesh.cpp)
+     1>Done Building Project "C:\Users\Sahil\Documents\NoFold2 Eigen 3.3\NoFoldParameterization\NoFoldParameterization.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:13.46

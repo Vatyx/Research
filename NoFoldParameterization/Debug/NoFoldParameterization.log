@@ -1,0 +1,63 @@
+﻿Build started 12/19/2016 1:00:32 PM.
+     1>Project "C:\Users\Sahil\Documents\NoFold2 Eigen 3.3\NoFoldParameterization\NoFoldParameterization.vcxproj" on node 2 (Build target(s)).
+       Project file contains ToolsVersion="12.0". This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion="4.0". For more information, please see http://go.microsoft.com/fwlink/?LinkId=291333.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt JasonFull.cpp
+         JasonFull.cpp
+     1>c:\users\sahil\documents\nofold2 eigen 3.3\nofoldparameterization\jasonfull.cpp(159): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218) : see declaration of 'fopen'
+     1>c:\users\sahil\documents\nofold2 eigen 3.3\nofoldparameterization\jasonfull.cpp(172): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218) : see declaration of 'fopen'
+     1>c:\users\sahil\documents\nofold2 eigen 3.3\nofoldparameterization\jasonfull.cpp(173): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218) : see declaration of 'fopen'
+     1>c:\users\sahil\documents\nofold2 eigen 3.3\nofoldparameterization\jasonfull.cpp(176): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\sahil\documents\nofold2 eigen 3.3\nofoldparameterization\jasonfull.cpp(205): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\sahil\documents\nofold2 eigen 3.3\nofoldparameterization\jasonfull.cpp(262): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\sahil\documents\nofold2 eigen 3.3\nofoldparameterization\jasonfull.cpp(204): warning C4101: 'gx2' : unreferenced local variable
+     1>c:\users\sahil\documents\nofold2 eigen 3.3\nofoldparameterization\jasonfull.cpp(204): warning C4101: 'gx1' : unreferenced local variable
+     1>c:\users\sahil\documents\nofold2 eigen 3.3\nofoldparameterization\jasonfull.cpp(204): warning C4101: 'gy0' : unreferenced local variable
+     1>c:\users\sahil\documents\nofold2 eigen 3.3\nofoldparameterization\jasonfull.cpp(204): warning C4101: 'gx0' : unreferenced local variable
+     1>c:\users\sahil\documents\nofold2 eigen 3.3\nofoldparameterization\jasonfull.cpp(204): warning C4101: 'gy2' : unreferenced local variable
+     1>c:\users\sahil\documents\nofold2 eigen 3.3\nofoldparameterization\jasonfull.cpp(204): warning C4101: 'gy1' : unreferenced local variable
+     1>c:\users\sahil\documents\nofold2 eigen 3.3\nofoldparameterization\jasonfull.cpp(408): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\sahil\documents\nofold2 eigen 3.3\nofoldparameterization\jasonfull.cpp(405): warning C4101: 'A' : unreferenced local variable
+     1>c:\users\sahil\documents\nofold2 eigen 3.3\nofoldparameterization\jasonfull.cpp(779): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\sahil\documents\nofold2 eigen 3.3\nofoldparameterization\jasonfull.cpp(1170): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(357) : see declaration of 'sprintf'
+     1>c:\users\sahil\documents\nofold2 eigen 3.3\nofoldparameterization\jasonfull.cpp(1269): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\sahil\documents\nofold2 eigen 3.3\nofoldparameterization\jasonfull.cpp(1309): warning C4258: 'i' : definition from the for loop is ignored; the definition from the enclosing scope is used
+                 c:\users\sahil\documents\nofold2 eigen 3.3\nofoldparameterization\jasonfull.cpp(1269) : definition of 'i' ignored
+                 c:\users\sahil\documents\nofold2 eigen 3.3\nofoldparameterization\jasonfull.cpp(1220) : definition of 'i' used
+     1>c:\users\sahil\documents\nofold2 eigen 3.3\nofoldparameterization\jasonfull.cpp(1464): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\sahil\documents\nofold2 eigen 3.3\nofoldparameterization\jasonfull.cpp(1599): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\sahil\documents\nofold2 eigen 3.3\nofoldparameterization\jasonfull.cpp(1661): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\sahil\documents\nofold2 eigen 3.3\nofoldparameterization\jasonfull.cpp(1737): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\sahil\documents\nofold2 eigen 3.3\nofoldparameterization\jasonfull.cpp(2217): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\sahil\documents\nofold2 eigen 3.3\nofoldparameterization\jasonfull.cpp(2527): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\sahil\documents\nofold2 eigen 3.3\nofoldparameterization\jasonfull.cpp(2617): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\sahil\documents\nofold2 eigen 3.3\nofoldparameterization\jasonfull.cpp(2660): warning C4018: '<' : signed/unsigned mismatch
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Sahil\Documents\NoFold2 Eigen 3.3\Debug\NoFoldCleanup.exe" /INCREMENTAL /NOLOGO mkl_intel_c_dll.lib mkl_intel_thread_dll.lib mkl_core_dll.lib libiomp5md.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Sahil\Documents\NoFold2 Eigen 3.3\Debug\NoFoldCleanup.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Sahil\Documents\NoFold2 Eigen 3.3\Debug\NoFoldCleanup.lib" /MACHINE:X86 Debug\BarrierMethod.obj
+         Debug\eval_functions.obj
+         Debug\eval_hessian.obj
+         Debug\global.obj
+         Debug\HalfEdgeMesh.obj
+         Debug\iso_pre.obj
+         Debug\JasonFull.obj
+         Debug\lbfgs.obj
+         Debug\load_obj_tris.obj
+         Debug\main.obj
+         Debug\mesh_charts.obj
+         Debug\mmap_file.obj
+         Debug\multires.obj
+         Debug\ParamMethod.obj
+         Debug\QEF.obj
+         Debug\timer.obj
+         Debug\tuttes_halfmesh.obj
+         Debug\vect.obj
+         NoFoldParameterization.vcxproj -> C:\Users\Sahil\Documents\NoFold2 Eigen 3.3\Debug\NoFoldCleanup.exe
+     1>Done Building Project "C:\Users\Sahil\Documents\NoFold2 Eigen 3.3\NoFoldParameterization\NoFoldParameterization.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.10
